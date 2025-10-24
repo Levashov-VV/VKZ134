@@ -1,0 +1,55 @@
+.slider {
+    width: 1409px;
+    height: 720px;
+}
+
+@media (max-width: 1408px) and (min-width: 1280px) {
+    .slider {
+        width: 100vw;
+        height: 86.1vh;
+    }
+}
+@media (max-width: 1280px) and (min-width: 1140px) {
+    .slider {
+        width: 100vw;
+        height: 85vh;
+    }
+}
+@media (max-width: 1140px) and (min-width: 1000px) {
+    .slider {
+        width: 100vw;
+        height: 56.2vh;
+    }
+}
+@media (max-width: 1000px) and (min-width: 768px) {
+    .slider {
+        width: 100vw;
+        height: 66.1vh;
+    }
+}
+@media (max-width: 768px) and (min-width: 480px) {
+    .slider {
+        width: 100vw;
+        height: 79.5vh;
+    }
+}
+@media (max-width: 480px) and (min-width: 400px) {
+    .slider {
+        width: 100vw;
+        height: 50vh;
+    }
+}
+
+@media (max-width: 400px) and (min-width: 380px) {
+    .slider {
+        width: 100vw;
+        height: 50vh;
+    }
+}
+
+@media (max-width: 380px) and (min-width: 0px) {
+    .slider {
+        width: 100vw;
+        height: 88vh;
+    }
+}

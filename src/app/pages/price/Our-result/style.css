@@ -1,0 +1,553 @@
+.result {
+    background-color: #fff;
+    font-family: 'Manrope';
+}
+
+.result-blocks {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 32px;
+    font-size: 32px;
+    padding: 0 5%;
+}
+
+.result-blocks:first-child {
+    position: relative;
+    bottom: 310px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 64px;
+    color: #fff;
+    padding-bottom: 80px;
+}
+
+.result-blocks:nth-child(2) {
+    position: relative;
+    bottom: 60px;
+}
+
+.result-blocks:nth-child(3) {
+    width: 1408px;
+    position: relative;
+    bottom: 70px;
+    margin-top: 30px;
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    flex-direction: column;
+    padding: 0px 5%;
+}
+
+.result-blocks:nth-child(4) {
+    position: relative;
+    bottom: 40px;
+}
+
+.result-list {
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+}
+
+.list-title {
+    text-align: center;
+    font-size: 38px;
+    font-weight: 600;
+}
+
+.result-blocks:nth-child(5) {
+    position: relative;
+    bottom: 10px;
+}
+
+.result-blocks:nth-child(6) {
+    display: flex;
+    flex-direction: column;
+}
+
+.result-blocks:nth-child(7) {
+    display: flex;
+    flex-direction: column;
+    padding: 30px 0;
+}
+.title-result {
+    font-size: 64px;
+}
+
+.subtitle-result {
+    position: relative;
+    font-size: 32px;
+}
+
+.result-subtitle {
+    font-size: 28px;
+    text-align: center;
+}
+
+.list-subtitles {
+    font-size: 24px;
+}
+
+.result-title {
+    font-size: 48px;
+    font-weight: 600;
+}
+
+.description-images {
+    display: flex;
+    flex-direction: row;
+    column-gap: 40px;
+    row-gap: 30px;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.result-img {
+    width: 360px;
+    height: 500px;
+    border-radius: 12px;
+}
+
+.list {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    padding-left: 0px;
+}
+
+.list-item {
+    margin-bottom: 10px;
+    padding-bottom: 0;
+    padding-left: 0px;
+    list-style-type: none;
+}
+
+.list-subtitle {
+    padding-bottom: 24px;
+    font-size: 28px;
+}
+
+@media (max-width: 1408px) and (min-width: 1280px) {
+    .result-blocks:first-child {
+        position: relative;
+        bottom: 50vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 64px;
+        color: #fff;
+        padding-bottom: 80px;
+    }
+
+    .result-blocks:nth-child(2) {
+        position: relative;
+        bottom: 25vh;
+    }
+
+    .result-blocks:nth-child(3) {
+        position: relative;
+        bottom: 22vh;
+        margin-top: 0;
+        width: 100vw;
+    }
+    .result-blocks:nth-child(4) {
+        position: relative;
+        bottom: 15vh;
+        padding-bottom: 0;
+    }
+    .result-blocks:nth-child(5) {
+        position: relative;
+        bottom: 10vh;
+        padding-bottom: 0;
+    }
+    .result-blocks:nth-child(6) {
+        position: relative;
+        bottom: 7vh;
+        padding-bottom: 0;
+    }
+    .result-blocks:nth-child(7) {
+        position: relative;
+        bottom: 4vh;
+        padding-bottom: 0;
+    }
+}
+@media (max-width: 1280px) and (min-width: 1140px) {
+    .result-blocks:first-child {
+        bottom: 50vh;
+    }
+
+    .result-blocks:nth-child(4) {
+        position: relative;
+        bottom: 14vh;
+    }
+    .result-blocks:nth-child(5) {
+        position: relative;
+        bottom: 8vh;
+        padding-bottom: 0;
+    }
+    .result-blocks:nth-child(6) {
+        position: relative;
+        bottom: 6vh;
+        padding-bottom: 0;
+    }
+    .delivery-img-title {
+        display: flex;
+        gap: 32px;
+        padding: 0;
+    }
+
+    .result-title {
+        font-size: 42px;
+    }
+
+    .result-img {
+        width: 25vw;
+        height: 500px;
+        border-radius: 12px;
+    }
+}
+@media (max-width: 1140px) and (min-width: 1000px) {
+    .result-title {
+        font-size: 36px;
+    }
+
+    .result-subtitle {
+        font-size: 24px;
+    }
+    .subtitle-result {
+        font-size: 28px;
+    }
+    .result-blocks:nth-child(2) {
+        bottom: 3vh;
+    }
+    .result-blocks:nth-child(3) {
+        width: 100vw;
+        bottom: 4vh;
+    }
+    .result-blocks:nth-child(4) {
+        bottom: 2vh;
+    }
+    .result-blocks:nth-child(5) {
+        position: relative;
+        bottom: 0vh;
+    }
+
+    .result-blocks:nth-child(7) {
+        text-align: center;
+        padding: 30px 5%;
+    }
+    .result-img {
+        width: 27vw;
+    }
+
+    .list-title {
+        font-size: 28px;
+    }
+
+    .list-subtitle {
+        font-size: 24px;
+    }
+}
+@media (max-width: 1000px) and (min-width: 768px) {
+    .result-title {
+        font-size: 32px;
+        text-align: center;
+    }
+
+    .result-subtitle {
+        font-size: 24px;
+    }
+    .subtitle-result {
+        font-size: 28px;
+    }
+    .result-blocks:nth-child(2) {
+        bottom: 5vh;
+    }
+    .result-blocks:nth-child(3) {
+        width: 100vw;
+        bottom: 4.5vh;
+    }
+    .result-blocks:nth-child(4) {
+        bottom: 2vh;
+    }
+    .result-blocks:nth-child(5) {
+        position: relative;
+        bottom: 0vh;
+    }
+
+    .result-blocks:nth-child(7) {
+        text-align: center;
+        padding: 30px 5%;
+    }
+    .result-img {
+        width: 25vw;
+        height: 35vh;
+    }
+
+    .list-title {
+        font-size: 28px;
+    }
+
+    .list-subtitle {
+        font-size: 24px;
+    }
+
+    .result-price {
+        font-size: 28px;
+    }
+}
+@media (max-width: 768px) and (min-width: 480px) {
+    .title-result {
+        font-size: 48px;
+    }
+    .result-title {
+        font-size: 32px;
+        text-align: center;
+    }
+
+    .result-subtitle {
+        font-size: 24px;
+    }
+    .subtitle-result {
+        font-size: 28px;
+    }
+
+    .result-blocks:first-child {
+        position: relative;
+        bottom: 35vh;
+    }
+    .result-blocks:nth-child(2) {
+        bottom: 8vh;
+    }
+    .result-blocks:nth-child(3) {
+        width: 100vw;
+        bottom: 8vh;
+    }
+    .result-blocks:nth-child(4) {
+        bottom: 6vh;
+    }
+    .result-blocks:nth-child(5) {
+        position: relative;
+        bottom: 5vh;
+    }
+    .result-blocks:nth-child(6) {
+        position: relative;
+        bottom: 5vh;
+    }
+
+    .result-blocks:nth-child(7) {
+        text-align: center;
+        padding: 0px 5% 30px;
+    }
+    .result-img {
+        width: 25vw;
+        height: 35vh;
+    }
+
+    .list-title {
+        font-size: 28px;
+    }
+
+    .list-subtitle {
+        font-size: 24px;
+    }
+
+    .result-price {
+        font-size: 28px;
+    }
+}
+@media (max-width: 480px) and (min-width: 400px) {
+    .title-result {
+        font-size: 42px;
+    }
+    .result-title {
+        font-size: 32px;
+        text-align: center;
+    }
+
+    .result-subtitle {
+        font-size: 24px;
+    }
+    .subtitle-result {
+        font-size: 24px;
+    }
+
+    .result-blocks:first-child {
+        position: relative;
+        bottom: 45vh;
+        gap: 24px;
+    }
+    .result-blocks:nth-child(2) {
+        position: absolute;
+        top: -868vh;
+    }
+    .result-blocks:nth-child(3) {
+        width: 100vw;
+        bottom: 21vh;
+    }
+    .result-blocks:nth-child(4) {
+        bottom: 16vh;
+    }
+    .result-blocks:nth-child(5) {
+        position: relative;
+        bottom: 12vh;
+    }
+    .result-blocks:nth-child(6) {
+        position: relative;
+        bottom: 10vh;
+    }
+
+    .result-blocks:nth-child(7) {
+        position: relative;
+        bottom: 6vh;
+        text-align: center;
+        padding: 0px 5%;
+    }
+    .result-img {
+        width: 100vw;
+        height: 55vh;
+    }
+
+    .list-title {
+        font-size: 28px;
+    }
+
+    .list-subtitle {
+        font-size: 24px;
+    }
+
+    .result-price {
+        font-size: 24px;
+    }
+}
+@media (max-width: 400px) and (min-width: 380px) {
+    .title-result {
+        font-size: 32px;
+    }
+    .result-title {
+        font-size: 32px;
+        text-align: center;
+    }
+
+    .result-subtitle {
+        font-size: 24px;
+    }
+    .subtitle-result {
+        font-size: 24px;
+    }
+
+    .result-blocks:first-child {
+        position: relative;
+        top: 16vh;
+        gap: 24px;
+    }
+    .result-blocks:nth-child(2) {
+        top: 28vh;
+    }
+    .result-blocks:nth-child(3) {
+        width: 100vw;
+        top: 28vh;
+    }
+    .result-blocks:nth-child(4) {
+        top: 32vh;
+    }
+    .result-blocks:nth-child(5) {
+        position: relative;
+        top: 34vh;
+    }
+    .result-blocks:nth-child(6) {
+        position: relative;
+        top: 35vh;
+        padding-bottom: 35vh;
+    }
+
+    .result-blocks:nth-child(7) {
+        text-align: center;
+        padding: 30px 5%;
+    }
+    .result-img {
+        width: 100vw;
+        height: 55vh;
+    }
+
+    .list-title {
+        font-size: 28px;
+    }
+
+    .list-subtitle {
+        font-size: 24px;
+    }
+
+    .result-price {
+        font-size: 24px;
+    }
+}
+
+@media (max-width: 380px) and (min-width: 0px) {
+    .title-result {
+        font-size: 32px;
+    }
+    .result-title {
+        font-size: 32px;
+        text-align: center;
+    }
+
+    .result-subtitle {
+        font-size: 24px;
+    }
+    .subtitle-result {
+        font-size: 24px;
+    }
+
+    .result-blocks:first-child {
+        position: relative;
+        bottom: 58vh;
+        gap: 24px;
+    }
+    .result-blocks:nth-child(2) {
+        bottom: 34vh;
+    }
+    .result-blocks:nth-child(3) {
+        width: 100vw;
+        bottom: 34vh;
+    }
+    .result-blocks:nth-child(4) {
+        bottom: 30vh;
+    }
+    .result-blocks:nth-child(5) {
+        position: relative;
+        bottom: 26vh;
+    }
+    .result-blocks:nth-child(6) {
+        position: relative;
+        bottom: 24vh;
+        padding-bottom: 15vh;
+    }
+
+    .result-blocks:nth-child(7) {
+        position: absolute;
+        bottom: 67vh;
+        text-align: center;
+        padding: 30px 5%;
+    }
+    .result-img {
+        width: 100vw;
+        height: 55vh;
+    }
+
+    .list-title {
+        font-size: 28px;
+    }
+
+    .list-subtitle {
+        font-size: 24px;
+    }
+
+    .result-price {
+        font-size: 24px;
+    }
+}

@@ -1,0 +1,67 @@
+'use client';
+
+import { Swiper, SwiperSlide } from 'swiper/react';
+import ClientOnly from '../Hidrataion/ClientOnly';
+import 'swiper/css';
+import 'swiper/css/pagination';
+import 'swiper/css/navigation';
+import { Pagination, Navigation } from 'swiper/modules';
+import Image from 'next/image';
+import Slide1 from './Slide1.png';
+import Slide2 from './Slide2.png';
+import Slide3 from './Slide3.png';
+import './style.css';
+
+const Slider = () => {
+    return (
+        <ClientOnly>
+            <Swiper
+                slidesPerView={1}
+                spaceBetween={30}
+                loop={true}
+                pagination={{
+                    clickable: true,
+                }}
+                navigation={false}
+                modules={[Pagination, Navigation]}
+                className="mySwiper"
+            >
+                <SwiperSlide>
+                    <Image
+                        className="slider"
+                        src={Slide1}
+                        alt="slider"
+                        width={0}
+                        height={0}
+                        sizes="100vw"
+                        loading="lazy"
+                    />
+                </SwiperSlide>
+                <SwiperSlide>
+                    <Image
+                        className="slider"
+                        src={Slide2}
+                        alt="slider"
+                        width={0}
+                        height={0}
+                        sizes="100vw"
+                        loading="lazy"
+                    />
+                </SwiperSlide>
+                <SwiperSlide>
+                    <Image
+                        className="slider"
+                        src={Slide3}
+                        alt="slider"
+                        width={0}
+                        height={0}
+                        sizes="100vw"
+                        loading="lazy"
+                    />
+                </SwiperSlide>
+            </Swiper>
+        </ClientOnly>
+    );
+};
+
+export default Slider;

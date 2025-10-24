@@ -1,0 +1,115 @@
+.price-list {
+    width: 100%;
+    overflow-x: auto;
+    background-color: #fff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    column-gap: 20px;
+    font-family: 'Manrope';
+}
+
+.table-block {
+    width: 45%;
+}
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.table th,
+.table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+}
+
+.table thead {
+    background-color: #f2f2f2;
+}
+
+.table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.table th {
+    font-weight: bold;
+}
+
+.title-table {
+    font-size: 32px;
+    text-align: center;
+    font-family: 'Manrope';
+    font-weight: 400;
+    margin-bottom: 40px;
+}
+
+@media (max-width: 480px) and (min-width: 400px) {
+    .table {
+        margin-bottom: 0px;
+    }
+    .table-tile {
+        width: 100vw;
+    }
+    .title-table {
+        font-size: 24px;
+        margin: 10px 0px;
+    }
+
+    .price-list {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .table-block {
+        width: 80%;
+    }
+    .table-tile td {
+        font-size: 13px;
+    }
+
+    .price-list {
+        display: flex;
+        column-gap: 50px;
+    }
+
+    .table-block {
+        width: 100%;
+    }
+    .table {
+        font-size: 13px;
+    }
+
+    .title-table {
+        margin: 15px 0px;
+    }
+}
+
+@media (max-width: 400px) and (min-width: 0px) {
+    .table-tile td {
+        font-size: 13px;
+    }
+
+    .price-list {
+        display: flex;
+        column-gap: 50px;
+    }
+
+    .table-block {
+        width: 100%;
+    }
+    .table {
+        font-size: 13px;
+    }
+
+    .title-table {
+        margin: 15px 0px;
+    }
+
+}

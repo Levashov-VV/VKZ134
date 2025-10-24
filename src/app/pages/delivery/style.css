@@ -1,0 +1,594 @@
+.delivery {
+    background-color: #fff;
+    font-family: 'Manrope';
+}
+
+.delivery-blocks:first-child {
+    position: relative;
+    bottom: 290px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 64px;
+    color: #fff;
+    padding-bottom: 80px;
+}
+
+.subtitle-delivery {
+    position: relative;
+    font-size: 32px;
+}
+
+.title-delivery {
+    font-size: 64px;
+}
+
+.delivery-blocks {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 32px;
+    font-size: 32px;
+    padding: 0 5%;
+}
+
+.truck {
+    width: 100px;
+    height: 100px;
+}
+
+.delivery-title {
+    font-size: 32px;
+    font-weight: 600;
+}
+.delivery-blocks:nth-child(2) {
+    position: relative;
+    bottom: 80px;
+}
+
+.delivery-blocks:nth-child(3) {
+    width: 1408px;
+    position: relative;
+    bottom: 70px;
+    margin-top: 50px;
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    flex-direction: column;
+    padding: 0px 5%;
+}
+
+.delivery-list {
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+}
+
+.list {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    padding-left: 20px;
+}
+
+.list-title {
+    font-size: 32px;
+    font-weight: 600;
+}
+
+.list-item {
+    margin-bottom: 10px;
+    padding-bottom: 0;
+    padding-left: 10px;
+    list-style-type: none;
+}
+
+.list-subtitle {
+    padding-bottom: 24px;
+    font-size: 28px;
+}
+
+.delivery-text {
+    line-height: 48px;
+    font-size: 24px;
+}
+
+.delivery-blocks:nth-child(4) {
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.delivery-img-title {
+    display: flex;
+    gap: 32px;
+    padding: 0 5%;
+}
+
+.delivery-example {
+    width: 550px;
+    height: 400px;
+}
+
+.delivery-blocks:nth-child(5) {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 30px;
+}
+
+@media (max-width: 1408px) and (min-width: 1280px) {
+    .delivery-blocks:first-child {
+        position: relative;
+        bottom: 50vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 64px;
+        color: #fff;
+        padding-bottom: 80px;
+    }
+
+    .delivery-blocks:nth-child(2) {
+        position: relative;
+        bottom: 25vh;
+    }
+
+    .delivery-blocks:nth-child(3) {
+        position: relative;
+        bottom: 22vh;
+        margin-top: 0;
+        width: 100vw;
+    }
+    .delivery-blocks:nth-child(4) {
+        position: relative;
+        bottom: 15vh;
+        padding-bottom: 0;
+    }
+    .delivery-blocks:nth-child(5) {
+        position: relative;
+        bottom: 8vh;
+        padding-bottom: 0;
+    }
+}
+@media (max-width: 1280px) and (min-width: 1140px) {
+    .delivery-blocks:first-child {
+        bottom: 50vh;
+    }
+    .delivery-blocks:nth-child(5) {
+        position: relative;
+        bottom: 8vh;
+        padding-bottom: 0;
+    }
+    .delivery-img-title {
+        display: flex;
+        gap: 32px;
+        padding: 0;
+    }
+}
+@media (max-width: 1140px) and (min-width: 1000px) {
+    .subtitle-delivery {
+        font-size: 28px;
+    }
+    .delivery-blocks:nth-child(2) {
+        bottom: 3vh;
+    }
+    .delivery-blocks:nth-child(3) {
+        width: 100vw;
+        bottom: 4vh;
+    }
+    .delivery-blocks:nth-child(4) {
+        bottom: 2vh;
+    }
+    .delivery-blocks:nth-child(5) {
+        position: relative;
+        bottom: 0vh;
+    }
+
+    .delivery-img-title {
+        padding: 0 5%;
+    }
+
+    .delivery-example {
+        width: 400px;
+        height: 300px;
+    }
+
+    .delivery-title {
+        font-size: 32px;
+    }
+
+    .list-title {
+        font-size: 28px;
+    }
+
+    .list-subtitle {
+        font-size: 24px;
+    }
+
+    .delivery-text {
+        font-size: 20px;
+    }
+
+    .delivery-price {
+        text-align: center;
+        font-size: 28px;
+    }
+}
+@media (max-width: 1000px) and (min-width: 768px) {
+    .title-delivery {
+        font-size: 58px;
+    }
+
+    .subtitle-delivery {
+        font-size: 24px;
+    }
+    .delivery-blocks:nth-child(2) {
+        position: relative;
+        bottom: 3vh;
+    }
+    .delivery-blocks:nth-child(3) {
+        width: 100vw;
+        bottom: 5vh;
+    }
+    .delivery-blocks:nth-child(4) {
+        bottom: 0vh;
+    }
+    .delivery-blocks:nth-child(5) {
+        position: relative;
+        bottom: 0vh;
+        padding-bottom: 30px;
+    }
+
+    .delivery-img-title {
+        padding: 0 5%;
+        position: relative;
+        bottom: 2vh;
+    }
+
+    .delivery-example {
+        width: 330px;
+        height: 250px;
+    }
+
+    .delivery-title {
+        font-size: 28px;
+    }
+
+    .list-title {
+        font-size: 24px;
+    }
+
+    .list-subtitle {
+        font-size: 20px;
+    }
+
+    .delivery-text {
+        font-size: 20px;
+    }
+
+    .delivery-price {
+        font-size: 20px;
+    }
+}
+@media (max-width: 768px) and (min-width: 480px) {
+    .title-delivery {
+        font-size: 58px;
+    }
+
+    .subtitle-delivery {
+        font-size: 24px;
+    }
+
+    .delivery-blocks:first-child {
+        position: absolute;
+        top: -220vh;
+        text-align: center;
+    }
+    .delivery-blocks:nth-child(2) {
+        top: 13vh;
+    }
+    .delivery-blocks:nth-child(3) {
+        width: 100vw;
+        top: 15vh;
+        margin-top: 0px;
+    }
+    .delivery-blocks:nth-child(4) {
+        top: 15vh;
+        margin-bottom: 0px;
+    }
+    .delivery-blocks:nth-child(5) {
+        top: 18vh;
+        padding-bottom: 20vh;
+    }
+
+    .delivery-img-title {
+        padding: 0;
+    }
+
+    .delivery-example {
+        width: 330px;
+        height: 250px;
+    }
+
+    .delivery-title {
+        font-size: 28px;
+    }
+
+    .list-title {
+        font-size: 24px;
+    }
+
+    .list-subtitle {
+        font-size: 20px;
+    }
+
+    .delivery-text {
+        font-size: 16px;
+    }
+
+    .delivery-price {
+        font-size: 20px;
+        text-align: center;
+    }
+}
+@media (max-width: 480px) and (min-width: 400px) {
+    .title-delivery {
+        font-size: 50px;
+    }
+
+    .subtitle-delivery {
+        font-size: 20px;
+    }
+
+    .delivery-blocks:first-child {
+        position: relative;
+        bottom: 40vh;
+        text-align: center;
+        row-gap: 32px;
+    }
+    .delivery-blocks:nth-child(2) {
+        position: relative;
+        bottom: 28vh;
+        gap: 0px;
+    }
+    .delivery-blocks:nth-child(3) {
+        position: relative;
+        width: 100vw;
+        bottom: 25vh;
+        margin-top: 0px;
+        gap: 0px;
+    }
+    .delivery-blocks:nth-child(4) {
+        position: relative;
+        bottom: 23vh;
+        margin-bottom: 0px;
+        flex-wrap: wrap;
+    }
+    .delivery-blocks:nth-child(5) {
+        position: absolute;
+        bottom: 56vh;
+    }
+
+    .delivery-img-title {
+        padding: 0 0 30px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .delivery-example {
+        width: 350px;
+        height: 250px;
+    }
+
+    .delivery-title {
+        font-size: 24px;
+        font-weight: 600;
+        text-align: center;
+    }
+
+    .truck {
+        display: none;
+    }
+
+    .list {
+        gap: 0px;
+        padding-left: 0px;
+    }
+
+    .list-title {
+        font-size: 20px;
+    }
+
+    .list-subtitle {
+        font-size: 18px;
+        padding-bottom: 20px;
+    }
+
+    .delivery-list {
+        gap: 32px;
+        padding-left: 10px;
+    }
+
+    .delivery-text {
+        font-size: 14px;
+    }
+
+    .delivery-price {
+        font-size: 20px;
+        text-align: center;
+    }
+}
+@media (max-width: 400px) and (min-width: 380px) {
+    .title-delivery {
+        font-size: 50px;
+    }
+
+    .subtitle-delivery {
+        font-size: 20px;
+    }
+
+    .delivery-blocks:first-child {
+        position: relative;
+        top: 12vh;
+        text-align: center;
+    }
+    .delivery-blocks:nth-child(2) {
+        position: relative;
+        top: 23vh;
+        gap: 0px;
+    }
+    .delivery-blocks:nth-child(3) {
+        position: relative;
+        width: 100vw;
+        top: 25vh;
+        margin-top: 0px;
+        gap: 0px;
+    }
+    .delivery-blocks:nth-child(4) {
+        position: relative;
+        top: 25vh;
+        margin-bottom: 0px;
+        flex-wrap: wrap;
+    }
+    .delivery-blocks:nth-child(5) {
+        position: relative;
+        top: 28vh;
+        padding-bottom: 31vh;
+    }
+
+    .delivery-img-title {
+        padding: 0 0 30px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .delivery-example {
+        width: 350px;
+        height: 250px;
+    }
+
+    .delivery-title {
+        font-size: 24px;
+        font-weight: 600;
+        text-align: center;
+    }
+
+    .truck {
+        display: none;
+    }
+
+    .list {
+        gap: 0px;
+        padding-left: 0px;
+    }
+
+    .list-title {
+        font-size: 20px;
+    }
+
+    .list-subtitle {
+        font-size: 18px;
+        padding-bottom: 20px;
+    }
+
+    .delivery-list {
+        gap: 32px;
+        padding-left: 10px;
+    }
+
+    .delivery-text {
+        font-size: 14px;
+    }
+
+    .delivery-price {
+        font-size: 20px;
+        text-align: center;
+    }
+}
+
+@media (max-width: 380px) and (min-width: 0px) {
+    .title-delivery {
+        font-size: 40px;
+    }
+
+    .subtitle-delivery {
+        font-size: 20px;
+    }
+
+    .delivery-blocks:first-child {
+        position: relative;
+        bottom: 55vh;
+        text-align: center;
+    }
+    .delivery-blocks:nth-child(2) {
+        position: relative;
+        bottom: 30vh;
+        gap: 10px;
+    }
+    .delivery-blocks:nth-child(3) {
+        position: relative;
+        width: 100vw;
+        bottom: 22vh;
+        margin-top: 0px;
+        gap: 0px;
+    }
+    .delivery-blocks:nth-child(4) {
+        position: relative;
+        bottom: 16vh;
+        margin-bottom: 0px;
+        flex-wrap: wrap;
+    }
+    .delivery-blocks:nth-child(5) {
+        position: relative;
+        bottom: 7vh;
+        padding-bottom: 0vh;
+    }
+
+    .delivery-img-title {
+        padding: 0 0 30px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .delivery-example {
+        width: 350px;
+        height: 250px;
+    }
+
+    .delivery-title {
+        font-size: 24px;
+        font-weight: 600;
+        text-align: center;
+    }
+
+    .truck {
+        display: none;
+    }
+
+    .list {
+        gap: 0px;
+        padding-left: 0px;
+    }
+
+    .list-title {
+        font-size: 20px;
+    }
+
+    .list-subtitle {
+        font-size: 18px;
+        padding-bottom: 20px;
+    }
+
+    .delivery-list {
+        gap: 32px;
+        padding-left: 20px;
+    }
+
+    .delivery-text {
+        font-size: 14px;
+    }
+
+    .delivery-price {
+        font-size: 20px;
+        text-align: center;
+    }
+}

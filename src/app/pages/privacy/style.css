@@ -1,0 +1,324 @@
+.privacy {
+    display: flex;
+    flex-direction: column;
+    width: 1408px;
+    padding: 50px;
+    background-color: #f5f5f5;
+    font-family: 'Manrope';
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 32px;
+}
+
+.privacy-block:first-child {
+    position: relative;
+    bottom: 270px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 64px;
+    color: #fff;
+}
+
+.privacy-block:nth-child(2) {
+    margin-top: 50px;
+    text-align: start;
+}
+
+.privacy-block:nth-child(3) {
+    position: relative;
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+}
+
+.privacy-list {
+    padding-left: 22px;
+}
+
+.privacy-title {
+    font-size: 64px;
+    font-weight: 500;
+    line-height: 80px;
+}
+
+.privacy-subtitle {
+    font-size: 42px;
+    font-weight: 500;
+    line-height: 40px;
+}
+
+@media (max-width: 1408px) and (min-width: 1280px) {
+    .privacy {
+        width: 100vw;
+        padding: 0 50px;
+    }
+
+    .privacy-block:first-child {
+        position: relative;
+        bottom: 45vh;
+    }
+
+    .privacy-block:nth-child(2) {
+        position: relative;
+        bottom: 10vh;
+    }
+
+    .privacy-block:nth-child(3) {
+        position: relative;
+        bottom: 10vh;
+    }
+}
+@media (max-width: 1280px) and (min-width: 1140px) {
+    .privacy {
+        width: 100vw;
+        padding: 0 50px;
+    }
+
+    .privacy-block:first-child {
+        position: relative;
+        bottom: 45vh;
+    }
+
+    .privacy-block:nth-child(2) {
+        position: relative;
+        bottom: 10vh;
+    }
+
+    .privacy-block:nth-child(3) {
+        position: relative;
+        bottom: 10vh;
+    }
+}
+@media (max-width: 1140px) and (min-width: 1000px) {
+    .privacy {
+        width: 100vw;
+        padding: 0 50px;
+    }
+
+    .privacy-block:first-child {
+        position: relative;
+        bottom: 20vh;
+    }
+
+    .privacy-block:nth-child(2) {
+        position: relative;
+        bottom: 2vh;
+    }
+
+    .privacy-block:nth-child(3) {
+        position: relative;
+        bottom: 2vh;
+        padding-bottom: 20px;
+    }
+
+    .privacy-title {
+        font-size: 64px;
+        text-align: center;
+    }
+
+    .privacy-subtitle {
+        text-align: center;
+    }
+}
+@media (max-width: 1000px) and (min-width: 786px) {
+    .privacy {
+        width: 100vw;
+        padding: 0 50px;
+    }
+
+    .privacy-block:first-child {
+        position: relative;
+        bottom: 22vh;
+    }
+
+    .privacy-block:nth-child(2) {
+        position: relative;
+        bottom: 2vh;
+    }
+
+    .privacy-block:nth-child(3) {
+        position: relative;
+        bottom: 2vh;
+        padding-bottom: 20px;
+    }
+
+    .privacy-title {
+        font-size: 58px;
+        text-align: center;
+    }
+
+    .privacy-subtitle {
+        font-size: 38px;
+        text-align: center;
+    }
+}
+@media (max-width: 786px) and (min-width: 480px) {
+    .privacy {
+        width: 100vw;
+        padding: 0 50px;
+        background-color: #fff;
+    }
+
+    .privacy-block:first-child {
+        position: relative;
+        bottom: 30vh;
+        right: 0vw;
+    }
+
+    .privacy-block:nth-child(2) {
+        position: absolute;
+        bottom: 4vh;
+        right: 0vw;
+        margin-top: 0px;
+    }
+
+    .privacy-block:nth-child(3) {
+        position: relative;
+        top: 6vh;
+        padding-bottom: 10vh;
+    }
+
+    .privacy-title {
+        font-size: 58px;
+        text-align: center;
+    }
+
+    .privacy-subtitle {
+        font-size: 32px;
+        text-align: center;
+        padding: 0 5vw;
+    }
+}
+@media (max-width: 480px) and (min-width: 400px) {
+    .privacy {
+        width: 100vw;
+        padding: 0 20px;
+        background-color: #fff;
+    }
+
+    .privacy-block:first-child {
+        position: relative;
+        bottom: 35vh;
+        right: 0vw;
+    }
+
+    .privacy-block:nth-child(2) {
+        position: relative;
+        bottom: 15vh;
+        right: 0vw;
+        margin-top: 0px;
+        width: 80vw;
+    }
+
+    .privacy-block:nth-child(3) {
+        position: relative;
+        bottom: 15vh;
+        padding-bottom: 0vh;
+    }
+
+    .privacy-title {
+        font-size: 38px;
+        text-align: center;
+        line-height: 48px;
+        width: 100vw;
+    }
+
+    .privacy-subtitle {
+        font-size: 24px;
+        padding: 0;
+ 
+        width: 95vw;
+    }
+
+    .privacy-text {
+        font-size: 16px;
+        line-height: 24px;
+    }
+}
+
+@media (max-width: 400px) and (min-width: 380px) {
+    .privacy {
+        width: 100vw;
+        padding: 0 20px;
+        background-color: #fff;
+    }
+
+    .privacy-block:first-child {
+        position: relative;
+        top: 15vh;
+        right: 0vw;
+    }
+
+    .privacy-block:nth-child(2) {
+        position: relative;
+        top: 35vh;
+        right: 0vw;
+        margin-top: 0px;
+        width: 80vw;
+    }
+
+    .privacy-block:nth-child(3) {
+        position: relative;
+        top: 35vh;
+        line-height: 24px;
+        padding-bottom: 40vh;
+    }
+
+    .privacy-title {
+        font-size: 32px;
+        text-align: center;
+    }
+
+    .privacy-subtitle {
+        font-size: 20px;
+        padding: 0;
+        width: 90vw;
+    }
+
+    .privacy-text {
+        font-size: 16px;
+        line-height: 24px;
+    }
+}
+
+@media (max-width: 380px) and (min-width: 0px) {
+        .privacy {
+        width: 100vw;
+        padding: 0 20px;
+        background-color: #fff;
+    }
+
+    .privacy-block:first-child {
+        position: relative;
+        bottom: 60vh;
+        right: 0vw;
+    }
+
+    .privacy-block:nth-child(2) {
+        position: relative;
+        bottom: 25vh;
+        right: 0vw;
+        margin-top: 0px;
+        width: 80vw;
+    }
+
+    .privacy-block:nth-child(3) {
+        position: relative;
+        bottom: 25vh;
+        line-height: 24px;
+        padding-bottom: 0vh;
+    }
+
+    .privacy-title {
+        font-size: 32px;
+        text-align: center;
+    }
+
+    .privacy-subtitle {
+        font-size: 20px;
+        padding: 0;
+        width: 90vw;
+    }
+}

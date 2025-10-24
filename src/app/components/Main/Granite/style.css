@@ -1,0 +1,103 @@
+.granite-block {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0px 32px 48px;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 20px;
+    font-family: 'Manrope';
+    font-weight: 600;
+}
+
+.granite-block:first-child {
+    position: relative;
+    bottom: 55px;
+    padding-bottom: 30px;
+}
+.granite-block:nth-child(2) {
+    position: relative;
+    bottom: 50px;
+    padding-bottom: 0px;
+}
+
+.granite-block:last-child {
+    padding-bottom: 0;
+}
+
+.granite-cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+
+@media (max-width: 1280px) and (min-width: 1140px) {
+    .granite-block:first-child {
+        bottom: 30px;
+    }
+
+    .granite-block:nth-child(2) {
+        bottom: 30px;
+    }
+}
+@media (max-width: 1000px) and (min-width: 768px) {
+    .granite-block:first-child {
+        bottom: 30px;
+    }
+
+    .granite-block:nth-child(2) {
+        bottom: 30px;
+    }
+}
+
+@media (max-width: 480px) and (min-width: 380px) {
+    .granite-block {
+        padding: 0 0 24px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .granite-block:first-child {
+        position: relative;
+        padding-bottom: 18px;
+    }
+
+    .granite-block:nth-child(3) {
+        position: relative;
+        bottom: 18px;
+    }
+    .granite-cards {
+        display: flex;
+        justify-content: none;
+        gap: 12px;
+    }
+}
+
+@media (max-width: 380px) and (min-width: 0px) {
+    .granite-block {
+        padding: 0 0 24px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .granite-block:first-child {
+        position: relative;
+        padding-bottom: 18px;
+    }
+
+    .granite-block:nth-child(3) {
+        position: relative;
+        bottom: 18px;
+    }
+    .granite-cards {
+        display: flex;
+        justify-content: none;
+        gap: 12px;
+    }
+}

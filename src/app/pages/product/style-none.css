@@ -1,0 +1,669 @@
+.product-price-block {
+    display: flex;
+    flex-direction: row;
+    column-gap: 60px;
+    justify-content: space-around;
+    align-items: center;
+    font-family: 'Manrope';
+}
+
+.inform-title {
+    font-size: 32px;
+    font-weight: 500;
+    padding-bottom: 40px;
+}
+
+.product-price-block:first-child {
+    position: relative;
+    bottom: 290px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 64px;
+    color: #fff;
+    font-weight: 500;
+}
+
+.product-price-block:nth-child(2) {
+    position: relative;
+    margin-top: 20px;
+    bottom: 10px;
+}
+
+.product-price-block:nth-child(3) {
+    position: relative;
+    margin-top: 20px;
+}
+
+.product-price-img {
+    width: 400px;
+    height: 500px;
+    border-radius: 12px;
+}
+
+.granite-page {
+    background-color: #fff;
+    width: 1409px;
+}
+
+.granite-page-block {
+    padding-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.granite-page-block:nth-child(3) {
+    display: flex;
+    flex-direction: row;
+    column-gap: 5%;
+    align-items: start;
+}
+
+.granite-page-block:nth-child(4) {
+    display: flex;
+    flex-direction: row;
+    column-gap: 5%;
+    align-items: start;
+}
+
+.granite-page-block:nth-child(5) {
+    padding-bottom: 50px;
+}
+
+.granite-page-none {
+    font-family: 'Manrope';
+    font-size: 24px;
+    line-height: 32px;
+    font-weight: 400;
+    text-align: center;
+    padding: 0 5%;
+}
+
+.subtitles-granit {
+    font-size: 48px;
+    text-align: center;
+    font-weight: 600;
+}
+
+@media (max-width: 1408px) and (min-width: 1280px) {
+    .inform-title {
+        padding-bottom: 40px;
+    }
+
+    .granite-page {
+        width: 100vw;
+    }
+
+    .product-price-block {
+        width: 100vw;
+    }
+
+    .product-price-block:first-child {
+        position: relative;
+        bottom: 50vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 64px;
+        color: #fff;
+        font-weight: 500;
+    }
+
+    .product-price-block:nth-child(2) {
+        position: relative;
+        margin-top: 0px;
+        bottom: 15vh;
+    }
+
+    .product-price-block:nth-child(3) {
+        bottom: 7vh;
+    }
+
+    .granite-page-block {
+        padding-bottom: 0px;
+    }
+
+    .granite-page-block:nth-child(5) {
+        padding-bottom: 30px;
+    }
+
+    .subtitles-granit {
+        font-size: 48px;
+        text-align: center;
+        font-weight: 600;
+    }
+    .none {
+        padding-bottom: 30px;
+    }
+}
+
+@media (max-width: 1280px) and (min-width: 1140px) {
+    .product-price-block:nth-child(3) {
+        bottom: 6vh;
+    }
+    .granite-page-block:nth-child(2) {
+        position: relative;
+        bottom: 3vh;
+    }
+    .subtitles-granit {
+        font-size: 38px;
+        text-align: center;
+    }
+}
+
+@media (max-width: 1140px) and (min-width: 1000px) {
+    .inform-title {
+        padding-bottom: 40px;
+    }
+
+    .granite-page {
+        width: 100vw;
+    }
+
+    .product-price-block {
+        width: 100vw;
+    }
+
+    .product-price-block:nth-child(2) {
+        margin-top: 50px;
+    }
+
+    .granite-page-block:nth-child(4) {
+        padding: 0 5%;
+    }
+
+    .subtitles-granit {
+        font-size: 48px;
+        text-align: center;
+        font-weight: 600;
+    }
+    .none {
+        padding-bottom: 30px;
+    }
+}
+
+@media (max-width: 1000px) and (min-width: 800px) {
+    .product-price-block:first-child {
+        position: relative;
+        bottom: 25vh;
+    }
+    .product-price-block:nth-child(2) {
+        margin-top: 0px;
+        top: 6vh;
+    }
+
+    .product-price-block:nth-child(3) {
+        top: 5vh;
+    }
+
+    .product-price-text {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .title-granit {
+        font-size: 58px;
+    }
+
+    .inform-title {
+        padding-bottom: 20px;
+        font-size: 26px;
+    }
+
+    .list {
+        gap: 0px;
+    }
+
+    .list-item {
+        font-size: 18px;
+        padding-bottom: 10px;
+    }
+
+    .granite-page {
+        width: 100vw;
+    }
+
+    .product-price-block {
+        width: 100vw;
+    }
+
+    .product-price-img {
+        width: 300px;
+        height: 400px;
+    }
+
+    .granite-page-block:nth-child(2) {
+        position: relative;
+        top: 6vh;
+    }
+    .granite-page-block:nth-child(3) {
+        position: relative;
+        top: 6vh;
+    }
+
+    .granite-page-block:nth-child(4) {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        top: 6vh;
+    }
+
+    .granite-page-block:nth-child(5) {
+        position: relative;
+        top: 6vh;
+        padding-bottom: 10vh;
+    }
+
+    .table-tile {
+        padding-top: 10px;
+    }
+    .subtitles-granit {
+        font-size: 36px;
+        text-align: center;
+        font-weight: 600;
+    }
+
+    .granite-page-none {
+        padding-bottom: 30px;
+    }
+
+    .none {
+        padding-bottom: 100px;
+    }
+}
+
+@media (max-width: 800px) and (min-width: 480px) {
+    .product-price-block:first-child {
+        position: relative;
+        bottom: 30vh;
+    }
+    .product-price-block:nth-child(2) {
+        position: absolute;
+        top: -15vh;
+    }
+
+    .product-price-block:nth-child(3) {
+        position: relative;
+        top: 46vh;
+    }
+
+    .granite-page-block:nth-child(2) {
+        position: relative;
+        top: 46vh;
+    }
+
+    .granite-page-block:nth-child(3) {
+        position: relative;
+        top: 46vh;
+    }
+
+    .granite-page-block:nth-child(4) {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        top: 46vh;
+        padding-bottom: 10vh;
+    }
+
+    .granite-page-block:nth-child(5) {
+        padding-bottom: 42vh;
+        position: relative;
+        top: 38vh;
+    }
+
+    .inform-title {
+        padding-bottom: 20px;
+        font-size: 26px;
+    }
+
+    .title-granit {
+        font-size: 58px;
+    }
+
+    .list {
+        gap: 0px;
+    }
+
+    .list-item {
+        font-size: 18px;
+        padding-bottom: 10px;
+    }
+
+    .granite-page {
+        width: 100vw;
+    }
+
+    .product-price-block {
+        width: 100vw;
+    }
+
+    .product-price-img {
+        width: 300px;
+        height: 400px;
+    }
+
+    .subtitles-granit {
+        font-size: 36px;
+        text-align: center;
+        font-weight: 600;
+    }
+
+    .granite-page-none {
+        padding-bottom: 30px;
+    }
+
+    .none {
+        padding-bottom: 50vh;
+    }
+}
+
+@media (max-width: 480px) and (min-width: 400px) {
+    .product-price-block:first-child {
+        position: relative;
+        bottom: 40vh;
+        row-gap: 32px;
+    }
+    .product-price-block:nth-child(2) {
+        position: relative;
+        bottom: 16vh;
+        width: 100vw;
+        column-gap: 30px;
+        margin-top: 0px;
+    }
+
+    .product-price-block:nth-child(3) {
+        position: relative;
+        bottom: 16vh;
+    }
+
+    .granite-page-block:nth-child(2) {
+        position: relative;
+        bottom: 16vh;
+        padding-bottom: 34vh;
+    }
+
+    .price-list {
+        padding-right: 0px;
+    }
+
+    .inform-title {
+        padding-bottom: 15px;
+        font-size: 20px;
+    }
+
+    .title-granit {
+        font-size: 50px;
+        text-align: center;
+    }
+
+    .list {
+        gap: 0px;
+        padding-left: 0px;
+    }
+
+    .list-item {
+        font-size: 14px;
+        padding-bottom: 10px;
+        margin-bottom: 0px;
+    }
+
+    .granite-page {
+        width: 100vw;
+    }
+
+    .product-price-block {
+        width: 100vw;
+    }
+
+    .product-price-img {
+        width: 180px;
+        height: 270px;
+    }
+
+    .subtitle-granit {
+        font-size: 20px;
+    }
+
+    .subtitles-granit {
+        font-size: 32px;
+        text-align: center;
+        font-weight: 600;
+    }
+
+    .granite-page-none {
+        padding-top: 30px;
+        padding-bottom: 30px;
+        font-size: 16px;
+    }
+
+    .none {
+        position: absolute;
+        bottom: 60vh;
+        padding-bottom: 0vh;
+    }
+}
+
+@media (max-width: 400px) and (min-width: 380px) {
+    .product-price-block {
+        justify-content: start;
+        row-gap: 20px;
+        padding-bottom: 0px;
+    }
+    .product-price-block:first-child {
+        position: relative;
+        top: 15vh;
+        display: flex;
+        gap: 40px;
+    }
+    .product-price-block:nth-child(2) {
+        position: relative;
+        bottom: 0vh;
+        width: 100vw;
+        column-gap: 30px;
+        margin-top: 40vh;
+        padding: 0 3vw;
+    }
+    .list-item {
+        margin-left: 0px;
+    }
+
+    .product-price-block:nth-child(3) {
+        position: relative;
+        bottom: 1vh;
+    }
+
+    .granite-page-block:nth-child(2) {
+        position: relative;
+        bottom: 1vh;
+    }
+
+    .product-price-text {
+        width: 30vw;
+    }
+
+    .granite-page-block:nth-child(3) {
+        position: relative;
+        bottom: 3vh;
+    }
+
+    .granite-page-block:nth-child(4) {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        bottom: 4vh;
+    }
+
+    .granite-page-block:nth-child(5) {
+        position: relative;
+        bottom: 4vh;
+
+        padding-bottom: 0vh;
+    }
+
+    .price-list {
+        padding-right: 0px;
+    }
+
+    .inform-title {
+        padding-bottom: 15px;
+        font-size: 16px;
+    }
+
+    .title-granit {
+        font-size: 40px;
+        text-align: center;
+    }
+
+    .list {
+        gap: 0px;
+        padding-left: 0px;
+    }
+
+    .list-item {
+        font-size: 12px;
+        padding-bottom: 10px;
+        margin-bottom: 0px;
+    }
+
+    .granite-page {
+        width: 100vw;
+        padding-bottom: 0px;
+    }
+
+    .product-price-block {
+        width: 100vw;
+    }
+
+    .product-price-img {
+        width: 180px;
+        height: 270px;
+    }
+
+    .subtitle-granit {
+        font-size: 20px;
+    }
+
+    .subtitles-granit {
+        font-size: 32px;
+        text-align: center;
+        font-weight: 600;
+    }
+
+    .granite-page-none {
+        font-size: 16px;
+        position: relative;
+        top: 2vh;
+    }
+
+    .none {
+        position: relative;
+        top: 0vh;
+        padding-bottom: 3vh;
+    }
+}
+
+@media (max-width: 380px) and (min-width: 0px) {
+    .product-price-block {
+        justify-content: start;
+        row-gap: 20px;
+        padding-bottom: 0px;
+    }
+    .product-price-block:first-child {
+        position: relative;
+        bottom: 55vh;
+        display: flex;
+        gap: 40px;
+    }
+    .product-price-block:nth-child(2) {
+        position: relative;
+        bottom: 20vh;
+        width: 100vw;
+        column-gap: 30px;
+        margin-top: 6vh;
+        padding: 0 3vw;
+    }
+    .list-item {
+        margin-left: 0px;
+    }
+
+    .product-price-block:nth-child(3) {
+        position: relative;
+        bottom: 20vh;
+    }
+
+    .granite-page-block:nth-child(2) {
+        position: relative;
+        bottom: 20vh;
+        padding-bottom: 65vh;
+    }
+
+    .product-price-text {
+        width: 30vw;
+    }
+
+    .granite-page-block:nth-child(3) {
+        position: absolute;
+        bottom: 63vh;
+    }
+
+    .price-list {
+        padding-right: 0px;
+    }
+
+    .inform-title {
+        padding-bottom: 15px;
+        font-size: 16px;
+    }
+
+    .title-granit {
+        font-size: 40px;
+        text-align: center;
+    }
+
+    .list {
+        gap: 0px;
+        padding-left: 0px;
+    }
+
+    .list-item {
+        font-size: 12px;
+        padding-bottom: 10px;
+        margin-bottom: 0px;
+    }
+
+    .granite-page {
+        width: 100vw;
+        padding-bottom: 0px;
+    }
+
+    .product-price-block {
+        width: 100vw;
+    }
+
+    .product-price-img {
+        width: 180px;
+        height: 270px;
+    }
+
+    .subtitle-granit {
+        font-size: 20px;
+    }
+
+    .subtitles-granit {
+        font-size: 32px;
+        text-align: center;
+        font-weight: 600;
+    }
+
+    .granite-page-none {
+        font-size: 16px;
+        position: relative;
+        top: 5vh;
+    }
+}

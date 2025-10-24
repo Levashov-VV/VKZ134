@@ -1,0 +1,103 @@
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropbtn {
+    background-color: #474a51;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 20px;
+    font-family: 'Manrope';
+}
+
+.dropdown-content {
+    display: block;
+    position: absolute;
+    background-color: #474a51;
+    border-radius: 12px;
+    min-width: 300px;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+    z-index: 1000;
+}
+
+.dropdown-content li a:hover {
+    background-color: #e6e6e6;
+    opacity: 1;
+    color: #232424;
+    border-radius: 12px;
+    background: #fff;
+}
+
+.dropdown-content a {
+    color: #efefef;
+    padding: 12px 0px 12px 24px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+    line-height: 20px;
+}
+
+@media (max-width: 1408px) and (min-width: 1280px) {
+    .dropbtn {
+        font-size: 18px;
+    }
+}
+@media (max-width: 1280px) and (min-width: 1140px) {
+    .dropbtn {
+        font-size: 18px;
+    }
+}
+@media (max-width: 1140px) and (min-width: 768px) {
+    .dropbtn {
+        font-size: 16px;
+    }
+}
+@media (max-width: 768px) and (min-width: 480px) {
+    .dropbtn {
+        font-size: 16px;
+        font-weight: 500;
+        width: 40vw;
+        height: 5vh;
+    }
+
+    .dropdown-content {
+        position: absolute;
+        left: 40vw;
+        top: 0vh;
+        min-width: 250px;
+    }
+    .dropdown-content li:first-child {
+        display: none;
+    }
+}
+
+@media (max-width: 480px) and (min-width: 0px) {
+    .dropbtn {
+        font-size: 16px;
+        font-weight: 500;
+        width: 40vw;
+        height: 6.7vh;
+    }
+
+    .dropdown-content {
+        position: absolute;
+        left: 40vw;
+        top: 3.5vw;
+        min-width: 200px;
+        font-size: 14px;
+    }
+    .dropdown-content li:first-child {
+        display: none;
+    }
+
+    .dropdown-content a {
+        color: #efefef;
+        padding: 2px 0px 5px 10px;
+        text-decoration: none;
+        display: block;
+        text-align: left;
+        line-height: 20px;
+    }
+}

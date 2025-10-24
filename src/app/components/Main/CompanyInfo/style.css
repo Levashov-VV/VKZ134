@@ -1,0 +1,244 @@
+.info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0px 32px;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 20px;
+    font-family: 'Manrope';
+    font-weight: 600;
+}
+
+.info-block {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.info-block:first-child {
+    position: relative;
+    bottom: 180px;
+}
+
+.info-block:nth-child(2) {
+    position: relative;
+    bottom: 140px;
+}
+
+.info-block:nth-child(3) {
+    position: relative;
+    bottom: 120px;
+}
+.info-block:nth-child(4) {
+    position: relative;
+    bottom: 60px;
+}
+
+.cards {
+    display: flex;
+    align-items: start;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 32px;
+}
+
+.info-title {
+    text-align: center;
+    font-size: 48px;
+    font-family: 'Manrope';
+    font-weight: 600;
+}
+
+.info-subtitle {
+    text-align: center;
+    font-family: 'Manrope';
+    color: black;
+    font-size: 32px;
+    line-height: 48px;
+}
+
+.text {
+    width: 90%;
+    text-align: center;
+    font-size: 24px;
+    line-height: 24px;
+    font-weight: 300;
+    line-height: 40px;
+    font-family: 'Manrope';
+    font-weight: 400;
+}
+.lf {
+    margin-left: 3vw;
+}
+
+@media (max-width: 1408px) and (min-width: 1280px) {
+    .info-block:nth-child(2) {
+        position: relative;
+        bottom: 150px;
+    }
+
+    .lf {
+        margin-left: 5vw;
+    }
+}
+
+@media (max-width: 1280px) and (min-width: 1140px) {
+    .main-block:nth-child(3) {
+        position: relative;
+        bottom: 240px;
+    }
+
+    .lf {
+        margin-left: 5vw;
+    }
+}
+
+@media (max-width: 1140px) and (min-width: 1000px) {
+    .main-block:nth-child(2) {
+        position: relative;
+        bottom: 28vh;
+    }
+
+    .info-block:nth-child(4) {
+        bottom: 70px;
+    }
+
+    .del-cards {
+        display: flex;
+        align-items: start;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 16px;
+    }
+    .lf {
+        margin-left: 5vw;
+    }
+}
+
+@media (max-width: 1000px) and (min-width: 768px) {
+    .info-subtitle {
+        font-size: 24px;
+    }
+
+    .text {
+        font-size: 18px;
+    }
+    .lf {
+        margin-left: 5vw;
+    }
+}
+
+@media (max-width: 768px) and (min-width: 480px) {
+    .cards {
+        gap: 16px;
+    }
+    .info-block:nth-child(2) {
+        bottom: 160px;
+    }
+    .info-block:nth-child(3) {
+        bottom: 130px;
+    }
+    .info-block:nth-child(4) {
+        bottom: 100px;
+    }
+
+    .info-subtitle {
+        font-size: 28px;
+    }
+
+    .text {
+        font-size: 22px;
+    }
+    .lf {
+        margin-left: 5vw;
+    }
+}
+
+@media (max-width: 480px) and (min-width: 380px) {
+    .info {
+        padding: 0;
+    }
+
+    .cards {
+        gap: 16px;
+    }
+
+    .info-title {
+        text-align: center;
+        font-size: 42px;
+        font-family: 'Manrope';
+        font-weight: 600;
+    }
+
+    .info-subtitle {
+        font-size: 20px;
+        line-height: 38px;
+    }
+
+    .text {
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .info-block:nth-child(2) {
+        position: relative;
+        bottom: 165px;
+    }
+
+    .info-block:nth-child(3) {
+        bottom: 150px;
+    }
+    .info-block:nth-child(4) {
+        bottom: 130px;
+    }
+
+    .lf {
+        margin-left: 5vw;
+    }
+}
+
+@media (max-width: 380px) and (min-width: 0px) {
+    .info {
+        padding: 0;
+    }
+
+    .cards {
+        gap: 16px;
+    }
+
+    .info-title {
+        text-align: center;
+        font-size: 42px;
+        font-family: 'Manrope';
+        font-weight: 600;
+    }
+
+    .info-subtitle {
+        font-size: 20px;
+        line-height: 38px;
+    }
+
+    .text {
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .info-block:nth-child(2) {
+        position: relative;
+        bottom: 165px;
+    }
+
+    .info-block:nth-child(3) {
+        bottom: 150px;
+    }
+    .info-block:nth-child(4) {
+        bottom: 130px;
+    }
+
+    .lf {
+        margin-left: 5vw;
+    }
+}
