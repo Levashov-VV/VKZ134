@@ -1,36 +1,74 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🪨 ВКЗ 134 — Сайт Волгоградского Камнеперерабатывающего Завода
 
-## Getting Started
+> Корпоративный сайт завода по производству изделий из гранита:  
+> памятники, стелы, плитка, брусчатка и другие изделия из натурального камня.
 
-First, run the development server:
+![Next.js](https://img.shields.io/badge/Next.js-14-black?logo=next.js)
+![React](https://img.shields.io/badge/React-18-61DAFB?logo=react)
+![TypeScript](https://img.shields.io/badge/TypeScript-5-3178C6?logo=typescript)
+![CSS](https://img.shields.io/badge/CSS3-1572B6?logo=css3)
+![Nginx](https://img.shields.io/badge/Nginx-009639?logo=nginx)
+![Status](https://img.shields.io/badge/Статус-Завершён-lightgrey)
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+---
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+##  О проекте
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Полноценный корпоративный веб-сайт для Волгоградского камнеперерабатывающего завода.  
+Сайт представлял завод в интернете: описывал продукцию, виды работ, условия доставки,  
+демонстрировал примеры готовых изделий и позволял клиентам связаться с производством.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+>  Проект завершён и не поддерживается — компания прекратила деятельность.
 
-## Learn More
+---
 
-To learn more about Next.js, take a look at the following resources:
+##  Функциональность
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+###  О заводе
+- Описание предприятия, его истории и производственных мощностей
+- Перечень выполняемых работ и услуг
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+###  Каталог продукции
+- Памятники, стелы, надгробные плиты
+- Плитка, брусчатка, бордюры
+- Индивидуальные изделия на заказ
 
-## Deploy on Vercel
+###  Энциклопедия гранитов
+- Описание каждого вида гранита с фотографиями
+- Характеристики: цвет, текстура, прочность, морозостойкость
+- Рекомендации по применению (интерьер / экстерьер / мемориальные изделия)
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+###  Прайс-лист
+- Таблица цен на все категории товаров
+- Разбивка по размерам и модификациям
+- Цены на услуги (резка, полировка, гравировка, установка)
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+###  Доставка
+- Условия и география доставки
+- Информация об упаковке и транспортировке изделий
+
+###  Примеры работ
+- Галерея реализованных проектов
+- Фотографии памятников, стел и других изделий
+
+###  Форма обратной связи
+- Клиент оставляет заявку прямо на сайте
+- CORS-политика настроена для безопасной передачи данных на сервер
+
+###  Telegram-бот
+- Клиент выбирает Telegram как удобный способ связи через форму на сайте
+- Бот собирает всю необходимую информацию о покупателе: имя, контакт, детали заказа
+- После сбора данных бот соединяет покупателя напрямую с менеджером завода для дальнейшего общения
+
+---
+
+## 🛠️ Tech Stack
+
+| Технология       | Назначение                                  |
+|------------------|---------------------------------------------|
+| Next.js 14       | Фреймворк, SSR, роутинг, API Routes         |
+| React 18         | UI-компоненты                               |
+| TypeScript       | Типизация кода                              |
+| CSS3             | Стилизация компонентов                      |
+| Nginx            | Веб-сервер, сборка и раздача статики        |
+| Telegram Bot API | Сбор данных клиента и связь с менеджером    |
